@@ -12,10 +12,10 @@
 <meta content='blogger' name='generator'/>
 <!--- Image favicon -->
 <link expr:href='data:blog.homepageUrl + &quot;favicon.ico&quot;' rel='icon' type='image/x-icon'/>
-<link href='https://4.bp.blogspot.com/-c2dCx-hYd-8/WZWH_-CaatI/AAAAAAAACrw/MSzp0Eu_Qr8tnYyIsHjIam0E7n3gIawGQCLcBGAs/s1600/favico1.png' rel='apple-touch-icon' sizes='57x57'/>
-<link href='https://4.bp.blogspot.com/-c2dCx-hYd-8/WZWH_-CaatI/AAAAAAAACrw/MSzp0Eu_Qr8tnYyIsHjIam0E7n3gIawGQCLcBGAs/s1600/favico1.png' rel='apple-touch-icon' sizes='60x60'/>
-<link href='https://4.bp.blogspot.com/-c2dCx-hYd-8/WZWH_-CaatI/AAAAAAAACrw/MSzp0Eu_Qr8tnYyIsHjIam0E7n3gIawGQCLcBGAs/s1600/favico1.png' rel='apple-touch-icon' sizes='72x72'/>
-<link href='https://4.bp.blogspot.com/-c2dCx-hYd-8/WZWH_-CaatI/AAAAAAAACrw/MSzp0Eu_Qr8tnYyIsHjIam0E7n3gIawGQCLcBGAs/s1600/favico1.png' rel='apple-touch-icon' sizes='76x76'/>
+<link href='https://2.bp.blogspot.com/-coH8_mrHZQY/WaGu_F4KK8I/AAAAAAAACw0/ejVfz5tewxkLa1NCV6gyZiMEKPkswdKHQCLcBGAs/s1600/favico1.png' rel='apple-touch-icon' sizes='57x57'/>
+<link href='https://2.bp.blogspot.com/-coH8_mrHZQY/WaGu_F4KK8I/AAAAAAAACw0/ejVfz5tewxkLa1NCV6gyZiMEKPkswdKHQCLcBGAs/s1600/favico1.png' rel='apple-touch-icon' sizes='60x60'/>
+<link href='https://2.bp.blogspot.com/-coH8_mrHZQY/WaGu_F4KK8I/AAAAAAAACw0/ejVfz5tewxkLa1NCV6gyZiMEKPkswdKHQCLcBGAs/s1600/favico1.png' rel='apple-touch-icon' sizes='72x72'/>
+<link href='https://2.bp.blogspot.com/-coH8_mrHZQY/WaGu_F4KK8I/AAAAAAAACw0/ejVfz5tewxkLa1NCV6gyZiMEKPkswdKHQCLcBGAs/s1600/favico1.png' rel='apple-touch-icon' sizes='76x76'/>
 <link href='https://2.bp.blogspot.com/-ekrJ1MoRAx8/WZWH0wUordI/AAAAAAAACrs/9IipGLtQUQ0v61slnwbDzQGAaC2AEoeVwCEwYBhgL/s1600/favico2.png' rel='apple-touch-icon' sizes='114x114'/>
 <link href='https://2.bp.blogspot.com/-ekrJ1MoRAx8/WZWH0wUordI/AAAAAAAACrs/9IipGLtQUQ0v61slnwbDzQGAaC2AEoeVwCEwYBhgL/s1600/favico2.png' rel='apple-touch-icon' sizes='120x120'/>
 <link href='https://2.bp.blogspot.com/-ekrJ1MoRAx8/WZWH0wUordI/AAAAAAAACrs/9IipGLtQUQ0v61slnwbDzQGAaC2AEoeVwCEwYBhgL/s1600/favico2.png' rel='apple-touch-icon' sizes='144x144'/>
@@ -674,7 +674,7 @@ h1.single-post, h1.single-post a{font-size: 120%;}
 							<b:else/>
 								<!--No header image -->
 								<a class='logo-header' expr:href='data:blog.homepageUrl' expr:title='data:title' itemprop='url'>
-									<amp-img expr:alt='data:title' expr:title='data:title' height='30' itemprop='image' src='https://4.bp.blogspot.com/-c2dCx-hYd-8/WZWH_-CaatI/AAAAAAAACrw/MSzp0Eu_Qr8tnYyIsHjIam0E7n3gIawGQCLcBGAs/s1600/favico1.png' width='30'/>
+									<amp-img expr:alt='data:title' expr:title='data:title' height='30' itemprop='image' src='https://3.bp.blogspot.com/-LkcTeV10F28/WaGxGDaSI5I/AAAAAAAACxA/lQj0R4-zTBMBIf57zxV0NdNLiXMX9h-rQCPcBGAYYCw/s1600/logo-coffee.png' width='30'/>
 								</a>
 								<div class='header-title'>
 									<b:if cond='data:blog.pageType == &quot;item&quot;'>
