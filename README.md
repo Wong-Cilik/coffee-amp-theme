@@ -103,6 +103,77 @@
 &lt;div class=&#039;about-author p-note note&#039;>XXXX&lt;/div&gt;
 					</pre>
 				</li>
+				<li>Find on <strong>&lt;div class=&#039;showcase&#039;&gt;</strong> then replace XXXX with your BLOG ID.
+					<pre class="prettyprint">
+&lt;a href=&#039;https://www.blogger.com/follow.g?view=FOLLOW&amp;blogID=XXXX&#039; rel=&#039;noreferrer&#039; target=&#039;_blank&#039; title=&#039;Follow This Blog&#039;&gt;
+&lt;span class=&#039;fa-stack&#039;&gt;
+&lt;i aria-hidden=&#039;true&#039; class=&#039;fa fa-circle fa-stack-2x fa-inverse&#039;/&gt;
+&lt;i aria-hidden=&#039;true&#039; class=&#039;fa fa-random fa-stack-1x&#039;/&gt;
+&lt;/span&gt;
+Follow This Blog
+&lt;/a&gt;
+					</pre>
+				</li>
+				<li>Find on <strong>&lt;div class=&#039;showcase&#039;&gt;</strong> then replace XXXX with your mailchimp url for info <a href="http://www.blogging4keeps.com/mailchimp-rss-campaign/">create mailchimp</a>.
+					<pre class="prettyprint">
+&lt;a href=&#039;http://eepurl.com/XXXX&#039; rel=&#039;noreferrer&#039; target=&#039;_blank&#039; title=&#039;Follow This Blog&#039;&gt;
+&lt;span class=&#039;fa-stack&#039;&gt;
+&lt;i aria-hidden=&#039;true&#039; class=&#039;fa fa-circle fa-stack-2x fa-inverse&#039;/&gt;
+&lt;i aria-hidden=&#039;true&#039; class=&#039;fa fa-random fa-stack-1x&#039;/&gt;
+&lt;/span&gt;
+Subscribe Blog
+&lt;/a&gt;
+					</pre>
+				</li>
+				<li>Find on <strong>&lt;div class=&#039;media-info&#039;&gt;</strong> then replace all social media account with your account.
+					<pre class="prettyprint">
+&lt;a href=&#039;https://plus.google.com/XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;Google Plus&#039;&gt;
+&lt;a href=&#039;https://www.facebook.com/XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;Facebook&#039;&gt;
+&lt;a href=&#039;https://twitter.com/XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;Twitter&#039;&gt;
+&lt;a href=&#039;https://www.instagram.com/XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;Instagram&#039;&gt;
+&lt;a href=&#039;https://github.com/XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;Github&#039;&gt;
+&lt;a href=&#039;https://id.pinterest.com/XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;Pinterest&#039;&gt;
+&lt;a href=&#039;mailto:XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;email&#039;&gt;
+&lt;a href=&#039;https://XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;official web&#039;&gt;
+					</pre>
+				</li>
+				<li>Find on <strong>&lt;nav class=&#039;mobile-menu&#039; itemprop=&#039;mainEntity&#039; itemscope=&#039;itemscope&#039; itemtype=&#039;https://schema.org/SiteNavigationElement&#039;&gt;</strong> then replace with your navigation link.</li>
+			</ol>
+			<h3>f. Optimize SEO</h3> 
+			<h4>Activate Custom Description Each Post</h4>
+			<ol>
+				<li>On Dashbord Click <strong class="setting">Settings</strong></li>
+				<li>Choose <strong>Search preferences</strong></li>
+				<li>on <strong>Meta Tags</strong> Description click <strong>Edit</strong> > Yes > Ok</li>
+				<li>Now you can see Custom Meta tags Area on Post Editor sidebar</li>
+				<li>Every make new post, Fill yours Post Descriptions there<br/>
+				<p>Follow the instructions below:</p>
+					![alt text](https://github.com/rachmatyanuarsyah/coffee-amp-theme/master/Documentation/assets/img/setting-seo.png)<br/>
+				<p>And this:</p>
+				![alt text](https://github.com/rachmatyanuarsyah/coffee-amp-theme/master/Documentation/assets/img/description-seo.png)
+				</li>
+			</ol>
+			<h3>g. Installation Google Analytics</h3>
+			<ol>
+				<li>Find below code, and change <strong>UA-XXXXX-1</strong> with your <i>Google Analytics ID</i></p>
+			<pre class="prettyprint">
+&lt;amp-analytics id=&#039;analytics1&#039; type=&#039;googleanalytics&#039;&gt;
+&lt;script type=&#039;application/json&#039;&gt;
+{
+  &amp;quot;vars&amp;quot;: {
+    &amp;quot;account&amp;quot;: &amp;quot;UA-XXXXX-1&amp;quot;
+  },
+  &amp;quot;triggers&amp;quot;: {
+    &amp;quot;trackPageview&amp;quot;: {
+      &amp;quot;on&amp;quot;: &amp;quot;visible&amp;quot;,
+      &amp;quot;request&amp;quot;: &amp;quot;pageview&amp;quot;
+    }
+  }
+}
+&lt;/script&gt;
+&lt;/amp-analytics&gt;
+						</pre>		
+			</li>
 			</ol>
 			</div>
 </section>
