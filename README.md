@@ -1,46 +1,42 @@
-# coffee-amp-theme
-this is theme for blogger.com, support with microdata, microformats, microformats 2 and able webmention using brig.fy
-documentation comming soon
-demo check at https://coffee-trik.blogspot.com 
 <section id="introduction">
-				<div class="page-header">
-					<h1>CoffeeAMP - Documentation!</h1>
-				</div>
-				<h3>Thanks for Using</h3>
-				<p>First of all, thank you for download and using this theme. To make your experience pleasant, we've added as much info as needed in this documentation. If you're stuck with anything, please refer to support forums.</p>
-				<ul>
-					<li>Contact Support: <a href="https://github.com/rachmatcontact-us.html">Contact us</a></li>	
-					<li>Version: 1.0.0</li>
-				</ul>
-				<h4>Descripton:</h4>
-				<p>Coffee AMP is a Accelerated Mobile Pages (AMP) for Blogger Template. It's a simple design, just few seconds to load and get everything running. It's just share for free. This theme support with microforats, microformats 2, microdata and responsive design.</p>
-			</section>
-			<section id="installation">
-				<div class="page-header">
-					<h1>Installation</h1>
-				</div>
-
-				<p>When you are ready to install a theme, you must first upload the theme file. The theme file can be uploaded in one way .</p>
-				<h3>a. Upload File</h3>
-				<ol>
-					<li>Open the file.</li>
-					<li>Open the XML file with a text editor (Notepad or something like that). Then select all text and copy (Ctrl+A, Ctrl+C in Window).</li>
-					<li>Return to your blog <strong>dashboard</strong>, access your <span class="label-template">Template</span> menu, click <span class="label label-edit">Edit HTML</span></li>
-					<li>In Editor HTML window, select all old code and paste the new code that you copied from the release file into code field. Then, click <span class="label label-save">Save template</span>.</li>
-				</ol>					
-				<h3>b. Blog Setting (Activate Blog Post Type)</h3>
-				<p>This step to make blog post type enable.</p>
-				<ol>
-					<li>Access your blog <strong>dashboard</strong> &gt; <span class="label-setting">Settings</span> &gt; <strong>Other</strong>. In <strong>Site feed</strong> - <strong>Allow Blog Feed</strong> choose <strong>Full</strong>.<p/></li>
-					<li>then <strong>Enable Title Links and Enclosure Links</strong> change to <strong>Yes</strong><p/>
-					<li>Then Click <span class="label label-save">Save settings</span>.</li>					
-				</ol>
-				<h3>c. Setting Blog Logo or Icon</h3> 						 			
-				 <ol>
-					 <li>On Blogger Dashbord Click <span class="label-template">Template</span></li>
-					 <li>Click <strong class="buttonx">Edit HTML</strong></li>
-					 <li>Scroll down and Find this Code :<br/><br/>
-						 <pre class="prettyprint">
+	<div class="page-header">
+		<h1>CoffeeAMP - Documentation!</h1>
+	</div>
+	<h3>Thanks for Using</h3>
+	<p>First of all, thank you for download and using this theme. To make your experience pleasant, we've added as much info as needed in this documentation. If you're stuck with anything, please refer to support forums.</p>
+	<ul>
+		<li>demo check at https://coffee-trik.blogspot.com </li>
+		<li>Contact Support: <a href="https://github.com/rachmatcontact-us.html">Contact us</a></li>
+		<li>Version: 1.0.0</li>
+	</ul>
+	<h4>Descripton:</h4>
+	<p>Coffee AMP is a Accelerated Mobile Pages (AMP) for Blogger Template. It's a simple design, just few seconds to load and get everything running. It's just share for free. This theme support with microforats, microformats 2, microdata and responsive design.</p>
+</section>
+<section id="installation">
+	<div class="page-header">
+		<h1>Installation</h1>
+	</div>
+	<p>When you are ready to install a theme, you must first upload the theme file. The theme file can be uploaded in one way .</p>
+	<h3>a. Upload File</h3>
+	<ol>
+		<li>Open the file.</li>
+		<li>Open the XML file with a text editor (Notepad or something like that). Then select all text and copy (Ctrl+A, Ctrl+C in Window).</li>
+		<li>Return to your blog <strong>dashboard</strong>, access your <span class="label-template">Template</span> menu, click <span class="label label-edit">Edit HTML</span></li>
+		<li>In Editor HTML window, select all old code and paste the new code that you copied from the release file into code field. Then, click <span class="label label-save">Save template</span>.</li>
+	</ol>			
+	<h3>b. Blog Setting (Activate Blog Post Type)</h3>
+	<p>This step to make blog post type enable.</p>
+	<ol>
+		<li>Access your blog <strong>dashboard</strong> &gt; <span class="label-setting">Settings</span> &gt; <strong>Other</strong>. In <strong>Site feed</strong> - <strong>Allow Blog Feed</strong> choose <strong>Full</strong>.</li>
+		<li>then <strong>Enable Title Links and Enclosure Links</strong> change to <strong>Yes</strong></li>
+		<li>Then Click <span class="label label-save">Save settings</span>.</li>
+	</ol>
+				<h3>c. Setting Blog Logo or Icon</h3>
+	<ol>
+		<li>On Blogger Dashbord Click <span class="label-template">Template</span></li>
+		<li>Click <strong class="buttonx">Edit HTML</strong></li>
+		<li>Scroll down and Find this Code :
+		<pre class="prettyprint">
 &lt;link href=&#039;https://4.bp.blogspot.com/-coH8_mrHZQY/WaGu_F4KK8I/AAAAAAAACw0/ejVfz5tewxkLa1NCV6gyZiMEKPkswdKHQCLcBGAs/s1600/favico1.png&#039; rel=&#039;apple-touch-icon&#039; sizes=&#039;57x57&#039;/&gt;
 &lt;link href=&#039;https://4.bp.blogspot.com/-coH8_mrHZQY/WaGu_F4KK8I/AAAAAAAACw0/ejVfz5tewxkLa1NCV6gyZiMEKPkswdKHQCLcBGAs/s1600/favico1.png&#039; rel=&#039;apple-touch-icon&#039; sizes=&#039;60x60&#039;/&gt;
 &lt;link href=&#039;https://4.bp.blogspot.com/-coH8_mrHZQY/WaGu_F4KK8I/AAAAAAAACw0/ejVfz5tewxkLa1NCV6gyZiMEKPkswdKHQCLcBGAs/s1600/favico1.png&#039; rel=&#039;apple-touch-icon&#039; sizes=&#039;72x72&#039;/&gt;
@@ -108,3 +104,5 @@ demo check at https://coffee-trik.blogspot.com
 					</pre>
 				</li>
 			</ol>
+			</div>
+</section>
