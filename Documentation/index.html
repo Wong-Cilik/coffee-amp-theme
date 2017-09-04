@@ -1,1 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>CoffeeAMP - Documentation</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Rachmat  Yanursyah">
+	
+	<!-- Le styles -->
+	<link href="assets/css/bootstrap.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="assets/css/docs.css" rel="stylesheet">
+	<link href="assets/js/google-code-prettify/prettify.css" rel="stylesheet">
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+	<!--[if lt IE 9]>
+	<script src="assets/js/html5shiv.js"></script>
+	<![endif]-->
+	
+	<style type="text/css">
+		body {
+			padding-top: 0;
+			line-height: 24px; 
+		}
 
+		h1, h2, h3, h4 { line-height: 60px; }
+		ul, ol, pre, dl, dd { margin-bottom: 1em; } 
+		
+		li, dt, dd { line-height: inherit; }
+
+		.bs-docs-sidenav a { color: #fff; }
+		.container {
+			margin: 0;
+			margin-left: 320px; 
+			width: auto;
+			max-width: 1250px;
+		}
+		
+		.row { width: 100%; }
+		
+		.bs-docs-sidenav {
+			margin: 0 0;
+			padding: 0;
+			box-shadow: 0;
+			-webkit-box-shadow: 0;
+			left: 0;
+			top:-10px;
+			right: auto;
+			bottom: -5px;
+			left: 0;
+			background-color: #1f253d;
+			border-right: 5px solid #d32e48;
+			padding-top: 150px; 
+			position: fixed;
+			overflow-y: auto;
+			border-radius:none!important
+		}
+		
+		.bs-docs-sidenav.affix { top: -10px }
+		.bs-docs-sidenav > li:first-child > a, .bs-docs-sidenav > li:last-child > a { border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; }
+		.bs-docs-sidenav > li > a { 
+			border-right: 0;
+			padding-left: 20px;
+			background: #394264;
+						border-radius:none!important
+		}
+		
+		section li {
+			padding: 2px;
+		}
+
+		.label { margin-right: 5px; }
+
+		.sc-sample {
+			max-height: 200px;
+			overflow: auto;
+		}
+
+		h1.logo {
+			margin-top: -120px;
+			margin-bottom: 30px;
+			margin-left: 15px;
+			margin-right:15px;
+			font-size: 30px;
+			display:block;
+			color:#fff;
+			line-height:1.2em;
+			font-weight:bold;
+			width:auto;
+			text-align:center;
+		}
+
+		.about-online { 
+			position: fixed;
+			margin-left: 259px;
+			padding: 10px;
+			padding-left: 95px;
+			top: 0;
+			width: 100%;
+			display: none; 
+		}
+
+		.about-online a { font-weight: bold; color: #2c3e50; }
+		
+		::-webkit-scrollbar { width: 4px; }
+		::-webkit-scrollbar-track { background-color: #1f253d; }
+		::-webkit-scrollbar-thumb { background-color: #ece6da; }
+		
+		body::-webkit-scrollbar { width: 8px; } 
+
+	</style>
+</head>
+
+<body data-spy="scroll" data-target=".bs-docs-sidebar" data-offset-top="0">
+	<div class="container">
+		<div class="bs-docs-sidebar">
+			<ul class="nav-list nav bs-docs-sidenav">
+				<li><h1 class="logo">Coffee AMP</h1></li>
+				<li><a href="#introduction">Introduction</a></li>
+				<li><a href="#installation">Installation</a></li>
+				<li><a href="#headoptions">Header Options</a></li>
+				<li><a href="#menu-setup">Menu Setup</a></li>				
+				<li><a href="#widgets">Widget</a></li>
+				<li><a href="#customizations">Customizations</a></li>
+				<li><a href="#disqus-comment">Disqus Comment</a></li>				
+				<li><a href="#credits">Copyright &amp; Credits</a></li>
+			</ul>
+		</div>
+		<div class="row">
+			<div class="span9">
+				<section id="introduction">
+					<div class="page-header">
+						<h1>CoffeeAMP - Documentation!</h1>
+					</div>
+					<h3>Thanks for Using</h3>
+					<p>First of all, thank you for download and using this theme. To make your experience pleasant, we've added as much info as needed in this documentation. If you're stuck with anything, please refer to support forums.</p>
+					<ul>
+						<li>demo check at https://coffee-trik.blogspot.com </li>
+						<li>Contact Support: <a href="https://github.com/rachmatcontact-us.html">Contact us</a></li>	
+						<li>Version: 1.0.0</li>
+					</ul>
+					<h4>Descripton:</h4>
+					<p>Coffee AMP is a Accelerated Mobile Pages (AMP) for Blogger Template. It's a simple design, just few seconds to load and get everything running. It's just share for free. This theme support with microforats, microformats 2, microdata and responsive design.</p>
+				</section>
+				<section id="installation">
+					<div class="page-header">
+						<h1>Installation</h1>
+					</div>
+					<p>When you are ready to install a theme, you must first upload the theme file. The theme file can be uploaded in one way .</p>
+					<h3>a. Upload File</h3>
+					<ol>
+						<li>Open the file.</li>
+						<li>Open the XML file with a text editor (Notepad or something like that). Then select all text and copy (Ctrl+A, Ctrl+C in Window).</li>
+						<li>Return to your blog <strong>dashboard</strong>, access your <span class="label-template">Template</span> menu, click <span class="label label-edit">Edit HTML</span></li>
+						<li>In Editor HTML window, select all old code and paste the new code that you copied from the release file into code field. Then, click <span class="label label-save">Save template</span>.</li>
+					</ol>					
+					<h3>b. Blog Setting (Activate Blog Post Type)</h3>
+					<p>This step to make blog post type enable.</p>
+					<ol>
+						<li>Access your blog <strong>dashboard</strong> &gt; <span class="label-setting">Settings</span> &gt; <strong>Other</strong>. In <strong>Site feed</strong> - <strong>Allow Blog Feed</strong> choose <strong>Full</strong>.<p/></li>
+						<li>then <strong>Enable Title Links and Enclosure Links</strong> change to <strong>Yes</strong><p/>
+						<li>Then Click <span class="label label-save">Save settings</span>.</li>					
+					</ol>
+					<h3>c. Setting Blog Logo or Icon</h3> 						 			
+					 <ol>
+						 <li>On Blogger Dashbord Click <span class="label-template">Template</span></li>
+						 <li>Click <strong class="buttonx">Edit HTML</strong></li>
+						 <li>Scroll down and Find this Code :<br/><br/>
+							 <pre class="prettyprint">
+&lt;link href=&#039;https://4.bp.blogspot.com/-coH8_mrHZQY/WaGu_F4KK8I/AAAAAAAACw0/ejVfz5tewxkLa1NCV6gyZiMEKPkswdKHQCLcBGAs/s1600/favico1.png&#039; rel=&#039;apple-touch-icon&#039; sizes=&#039;57x57&#039;/&gt;
+&lt;link href=&#039;https://4.bp.blogspot.com/-coH8_mrHZQY/WaGu_F4KK8I/AAAAAAAACw0/ejVfz5tewxkLa1NCV6gyZiMEKPkswdKHQCLcBGAs/s1600/favico1.png&#039; rel=&#039;apple-touch-icon&#039; sizes=&#039;60x60&#039;/&gt;
+&lt;link href=&#039;https://4.bp.blogspot.com/-coH8_mrHZQY/WaGu_F4KK8I/AAAAAAAACw0/ejVfz5tewxkLa1NCV6gyZiMEKPkswdKHQCLcBGAs/s1600/favico1.png&#039; rel=&#039;apple-touch-icon&#039; sizes=&#039;72x72&#039;/&gt;
+&lt;link href=&#039;https://4.bp.blogspot.com/-coH8_mrHZQY/WaGu_F4KK8I/AAAAAAAACw0/ejVfz5tewxkLa1NCV6gyZiMEKPkswdKHQCLcBGAs/s1600/favico1.png&#039; rel=&#039;apple-touch-icon&#039; sizes=&#039;76x76&#039;/&gt;
+&lt;link href=&#039;https://4.bp.blogspot.com/-ekrJ1MoRAx8/WZWH0wUordI/AAAAAAAACrs/9IipGLtQUQ0v61slnwbDzQGAaC2AEoeVwCEwYBhgL/s1600/favico2.png&#039; rel=&#039;apple-touch-icon&#039; sizes=&#039;114x114&#039;/&gt;
+&lt;link href=&#039;https://4.bp.blogspot.com/-ekrJ1MoRAx8/WZWH0wUordI/AAAAAAAACrs/9IipGLtQUQ0v61slnwbDzQGAaC2AEoeVwCEwYBhgL/s1600/favico2.png&#039; rel=&#039;apple-touch-icon&#039; sizes=&#039;120x120&#039;/&gt;
+&lt;link href=&#039;https://4.bp.blogspot.com/-ekrJ1MoRAx8/WZWH0wUordI/AAAAAAAACrs/9IipGLtQUQ0v61slnwbDzQGAaC2AEoeVwCEwYBhgL/s1600/favico2.png&#039; rel=&#039;apple-touch-icon&#039; sizes=&#039;144x144&#039;/&gt;
+&lt;link href=&#039;https://4.bp.blogspot.com/-ekrJ1MoRAx8/WZWH0wUordI/AAAAAAAACrs/9IipGLtQUQ0v61slnwbDzQGAaC2AEoeVwCEwYBhgL/s1600/favico2.png&#039; rel=&#039;apple-touch-icon&#039; sizes=&#039;152x152&#039;/&gt;
+&lt;link href=&#039;https://4.bp.blogspot.com/-ekrJ1MoRAx8/WZWH0wUordI/AAAAAAAACrs/9IipGLtQUQ0v61slnwbDzQGAaC2AEoeVwCEwYBhgL/s1600/favico2.png&#039; rel=&#039;apple-touch-icon&#039; sizes=&#039;180x180&#039;/&gt;
+&lt;link href=&#039;https://4.bp.blogspot.com/-ekrJ1MoRAx8/WZWH0wUordI/AAAAAAAACrs/9IipGLtQUQ0v61slnwbDzQGAaC2AEoeVwCEwYBhgL/s1600/favico2.png&#039; rel=&#039;icon&#039; sizes=&#039;192x192&#039; type=&#039;image/png&#039;/&gt;
+&lt;link href=&#039;https://4.bp.blogspot.com/-GAxpu0rFJdY/WZWHLfMT_1I/AAAAAAAACrk/BuA2wKDuMe8_TSrhV1CFPWOWgF-VwNm1wCLcBGAs/s1600/favico.png&#039; rel=&#039;icon&#039; sizes=&#039;32x32&#039; type=&#039;image/png&#039;/&gt;
+&lt;link href=&#039;https://4.bp.blogspot.com/-GAxpu0rFJdY/WZWHLfMT_1I/AAAAAAAACrk/BuA2wKDuMe8_TSrhV1CFPWOWgF-VwNm1wCLcBGAs/s1600/favico.png&#039; rel=&#039;icon&#039; sizes=&#039;96x96&#039; type=&#039;image/png&#039;/&gt;
+&lt;meta content=&#039;https://4.bp.blogspot.com/-GAxpu0rFJdY/WZWHLfMT_1I/AAAAAAAACrk/BuA2wKDuMe8_TSrhV1CFPWOWgF-VwNm1wCLcBGAs/s1600/favico.png&#039; name=&#039;msapplication-TileImage&#039;/&gt;
+							</pre>
+						</li>
+					</ol>
+					<h3>d. Setting Meta Tag and Open Graph</h3>
+					<ol>
+						<li> Find on Head tag and replace XXXX with your google plus link and your name on meta me author.
+					<pre class="prettyprint">
+&lt;meta content=&#039;XXXXX&#039; name='me Author'/>
+&lt;link href=&#039;https://plus.google.com/XXXX&#039; rel=&#039;author me&#039;/&gt;
+&lt;link href=&#039;https://plus.google.com/XXXX&#039; rel=&#039;publisher&#039;/&gt;
+					</pre></li>
+						<li> Find on Head tag and replace XXXX with your google site verification.
+					<pre class="prettyprint">
+&lt;meta content=&#039;XXXX&#039; name=&#039;google-site-verification&#039;/&gt;
+					</pre></li>
+						<li> Find on Head tag and <strong>&lt;b:includable id=&#039;post&#039; var=&#039;post&#039;&gt;</strong> then replace XXXX with your fb profile id, locate on <a href="https://findmyfbid.com/"> find my id</a> and if you have fb:app_id just change the fb:app_id value or you can create one at <a href="https://developers.facebook.com/apps/?action=create">Developer Facebook</a>.
+					<pre class="prettyprint">
+&lt;meta content=&#039;XXXX&#039; property=&#039;fb:admins&#039;/&gt;
+&lt;meta content=&#039;XXXX&#039; property=&#039;fb:profile_id&#039;/&gt;
+&lt;meta content=&#039;1429806127066799&#039; property=&#039;fb:app_id&#039;/&gt;
+					</pre></li>
+					<li> Find on Head tag and <strong>&lt;b:includable id=&#039;post&#039; var=&#039;post&#039;&gt; then replace XXXX with your twitter account.
+						<pre class="prettyprint">
+&lt;meta content=&#039;@XXXXX&#039; name=&#039;twitter:creator&#039;/&gt;
+						</pre>
+						 <p><strong>Note:</strong> Before your cards show on Twitter, <strong>you must first have your domain approved</strong>. Fortunately, it's a super-easy process. After you implement your cards, simply enter your sample URL into the validation tool. After checking your markup, select the "<strong>Submit for Approval</strong>" button. Go Here : <a target="_blank" href="https://dev.twitter.com/docs/cards/validation/validator">Cards Validator</a> for testing and approval</p>
+					</li>
+					<li> Find on includable &lt;b:includable id=&#039;shareButtons&#039; var=&#039;post&#039;&gt;</strong> then replace with your fb:app_id or you can leave it default.
+						<pre class="prettyprint">
+&lt;amp-social-share data-param-app_id=&#039;1429806127066799&#039; height=&#039;35&#039; type=&#039;facebook&#039; width=&#039;35&#039;/&gt;
+						</pre>
+					</li>
+				</ol>
+				<h3>e. Custom AMP Sidebar</h3> 
+				<h4>locate on &lt;amp-sidebar id=&#039;sidebar-menu&#039; layout=&#039;nodisplay&#039; side=&#039;right&#039;&gt;</h4>
+				<ol>
+					<li>Find on <strong>&lt;div class=&#039;info-profile author p-author vcard hcard h-card&#039; itemscope=&#039;itemscope&#039; itemtype=&#039;https://schema.org/Person&#039;&gt;</strong> then replace XXXX with your profil pict url.
+						<pre class="prettyprint">
+&lt;amp-img alt=&#039;author&#039; class=&#039;u-photo photo&#039; height=&#039;100&#039; itemprop=&#039;image&#039; src=&#039;XXXX&#039; width=&#039;100&#039;/&gt;
+						</pre>
+					</li>
+					<li>Find on <strong>&lt;div class=&#039;info-profile author p-author vcard hcard h-card&#039; itemscope=&#039;itemscope&#039; itemtype=&#039;https://schema.org/Person&#039;&gt;</strong> then replace XXXX with your profil author url and name.
+						<pre class="prettyprint">
+&lt;a class=&#039;authorname g-profile url uid u-url u-uid&#039; href=&#039;XXXX&#039; itemprop=&#039;url&#039; rel=&#039;me author noreferrer&#039; target=&#039;_blank&#039; title=&#039;XXXX&#039;&gt;
+&lt;span class=&#039;fn n p-name&#039; itemprop=&#039;name&#039;&gt;XXXX&lt;/span&gt;
+&lt;/a&gt;
+						</pre>
+					</li>
+					<li>Find on <strong>&lt;amp-accordion class=&#039;about-me&#039;&gt;</strong> then replace XXXX and describe your self.
+						<pre class="prettyprint">
+&lt;div class=&#039;about-author p-note note&#039;>XXXX&lt;/div&gt;
+						</pre>
+					</li>
+					<li>Find on <strong>&lt;div class=&#039;showcase&#039;&gt;</strong> then replace XXXX with your BLOG ID.
+						<pre class="prettyprint">
+&lt;a href=&#039;https://www.blogger.com/follow.g?view=FOLLOW&amp;blogID=XXXX&#039; rel=&#039;noreferrer&#039; target=&#039;_blank&#039; title=&#039;Follow This Blog&#039;&gt;
+&lt;span class=&#039;fa-stack&#039;&gt;
+&lt;i aria-hidden=&#039;true&#039; class=&#039;fa fa-circle fa-stack-2x fa-inverse&#039;/&gt;
+&lt;i aria-hidden=&#039;true&#039; class=&#039;fa fa-random fa-stack-1x&#039;/&gt;
+&lt;/span&gt;
+Follow This Blog
+&lt;/a&gt;
+						</pre>
+					</li>
+					<li>Find on <strong>&lt;div class=&#039;showcase&#039;&gt;</strong> then replace XXXX with your mailchimp url for info <a href="http://www.blogging4keeps.com/mailchimp-rss-campaign/">create mailchimp</a>.
+						<pre class="prettyprint">
+&lt;a href=&#039;http://eepurl.com/XXXX&#039; rel=&#039;noreferrer&#039; target=&#039;_blank&#039; title=&#039;Follow This Blog&#039;&gt;
+&lt;span class=&#039;fa-stack&#039;&gt;
+&lt;i aria-hidden=&#039;true&#039; class=&#039;fa fa-circle fa-stack-2x fa-inverse&#039;/&gt;
+&lt;i aria-hidden=&#039;true&#039; class=&#039;fa fa-random fa-stack-1x&#039;/&gt;
+&lt;/span&gt;
+Subscribe Blog
+&lt;/a&gt;
+						</pre>
+					</li>
+					<li>Find on <strong>&lt;div class=&#039;media-info&#039;&gt;</strong> then replace all social media account with your account.
+						<pre class="prettyprint">
+&lt;a href=&#039;https://plus.google.com/XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;Google Plus&#039;&gt;
+&lt;a href=&#039;https://www.facebook.com/XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;Facebook&#039;&gt;
+&lt;a href=&#039;https://twitter.com/XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;Twitter&#039;&gt;
+&lt;a href=&#039;https://www.instagram.com/XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;Instagram&#039;&gt;
+&lt;a href=&#039;https://github.com/XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;Github&#039;&gt;
+&lt;a href=&#039;https://id.pinterest.com/XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;Pinterest&#039;&gt;
+&lt;a href=&#039;mailto:XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;email&#039;&gt;
+&lt;a href=&#039;https://XXXX&#039; itemprop=&#039;sameAs&#039; rel=&#039;me noreferrer&#039; target=&#039;_blank&#039; title=&#039;official web&#039;&gt;
+						</pre>
+					</li>
+					<li>Find on <strong>&lt;nav class=&#039;mobile-menu&#039; itemprop=&#039;mainEntity&#039; itemscope=&#039;itemscope&#039; itemtype=&#039;https://schema.org/SiteNavigationElement&#039;&gt;</strong> then replace with your navigation link.</li>
+				</ol>
+				<h3>f. Optimize SEO</h3> 
+				<h4>Activate Custom Description Each Post</h4>
+				<ol>
+					<li>On Dashbord Click <strong class="setting">Settings</strong></li>
+					<li>Choose <strong>Search preferences</strong></li>
+					<li>on <strong>Meta Tags</strong> Description click <strong>Edit</strong> > Yes > Ok</li>
+					<li>Now you can see Custom Meta tags Area on Post Editor sidebar</li>
+					<li>Every make new post, Fill yours Post Descriptions there<br/>
+					<p>Follow the instructions below:</p>
+						<img src='assets/img/setting-seo.png'/><br/>
+					<p>And this:</p>
+						<img src='assets/img/description-seo.png'/>
+					</li>
+				</ol>
+				<h3>g. Installation Google Analytics</h3>
+				<ol>
+					<li>Find below code, and change <strong>UA-XXXXX-1</strong> with your <i>Google Analytics ID</i></p>
+				<pre class="prettyprint">
+&lt;amp-analytics id=&#039;analytics1&#039; type=&#039;googleanalytics&#039;&gt;
+&lt;script type=&#039;application/json&#039;&gt;
+{
+  &amp;quot;vars&amp;quot;: {
+    &amp;quot;account&amp;quot;: &amp;quot;UA-XXXXX-1&amp;quot;
+  },
+  &amp;quot;triggers&amp;quot;: {
+    &amp;quot;trackPageview&amp;quot;: {
+      &amp;quot;on&amp;quot;: &amp;quot;visible&amp;quot;,
+      &amp;quot;request&amp;quot;: &amp;quot;pageview&amp;quot;
+    }
+  }
+}
+&lt;/script&gt;
+&lt;/amp-analytics&gt;
+							</pre>		
+				</li>
+				</ol>
+			</section>
+				<section id="headoptions">
+					<div class="page-header">
+						<h1>Header Options</h1>
+					</div>
+					<h3>Header Title</h3>
+					<ol>
+						<li>Access your blog <span class="label-layout">Layout</span> &gt; click <strong>Header</strong> &gt; click <strong>Edit</strong> &gt; <strong>Edit HTML</strong></li>					
+					</ol>
+					<h3>Settings Your Blog Posts </h3>
+					<p>In <strong>Dashboard</strong> &gt; <span class="label-layout">Layout</span> &gt; <strong>Blog Posts</strong>, Click on <strong>"Edit"</strong> and applicate all customizing like in folder <strong>SETTINGS</strong>.</p>
+				</section>
+				<section id="menu-setup">
+					<div class="page-header">
+						<h1>Menu Setup</h1>
+					</div>					
+					<h3>Desktop Menu</h3>
+					<ol>
+						<li>First Go to <strong>Dashboard</strong> &gt; <span class="label-layout">Layout</span> &gt; Template &gt; Edit HTML.</li>
+						<li>Find and custmize this code:
+							<pre class="prettyprint">
+&lt;nav class=&#039;mobile-menu&#039; itemprop=&#039;mainEntity&#039; itemscope=&#039;itemscope&#039; itemtype=&#039;http://schema.org/SiteNavigationElement&#039;&gt;
+	&lt;ul class=&#039;menu&#039;&gt;
+	&lt;li expr:class=&#039;data:blog.url==data:blog.homepageUrl ? &quot;active&quot; : &quot;&quot;&#039; itemprop=&#039;name&#039;&gt;&lt;a expr:href=&#039;data:blog.homepageUrl&#039; itemprop=&#039;url&#039; title=&#039;Home&#039;&gt;Home&lt;/a&gt;&lt;/li&gt;
+	&lt;li itemprop=&#039;name&#039;&gt;&lt;a href=&#039;#&#039; itemprop=&#039;url&#039; title=&#039;Tutorial&#039;&gt;Tutorial&lt;/a&gt;
+		&lt;ul class=&#039;submenu&#039;&gt;
+		&lt;li class=&#039;&#039; itemprop=&#039;name&#039;&gt;&lt;a href=&#039;#&#039; itemprop=&#039;url&#039; title=&#039;Tutorial 1&#039;>Tutorial 1&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#039;&#039; itemprop=&#039;name&#039;&gt;&lt;a href=&#039;#&#039; itemprop=&#039;url&#039; title=&#039;Tutorial 2&#039;>Tutorial 2&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#039;&#039; itemprop=&#039;name&#039;&gt;&lt;a href=&#039;#&#039; itemprop=&#039;url&#039; title=&#039;Tutorial 3&#039;>Tutorial 3&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul>
+	&lt;/li&gt;
+	&lt;li itemprop=&#039;name&#039;&gt;&lt;a href=&#039;#&#039; itemprop=&#039;url&#039; title=&#039;Contact&#039;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+	&lt;li itemprop=&#039;name&#039;&gt;&lt;a href=&#039;#&#039; itemprop=&#039;url&#039; title=&#039;Sitemap&#039;&gt;Sitemap&lt;/a&gt;&lt;/li&gt;
+	&lt;li itemprop=&#039;name&#039;&gt;&lt;a href=&#039;#&#039; itemprop=&#039;url&#039; title=&#039;Pasang Iklan&#039;&gt;Iklan&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;
+							</pre>
+						</li>				
+					</ol>
+					<h3>Mobile Menu</h3>
+					<p>Find and customize this code:</p>
+					<pre class="prettyprint">
+&lt;nav class=&#039;mobile-menu&#039; itemprop=&#039;mainEntity&#039; itemscope=&#039;itemscope&#039; itemtype=&#039;http://schema.org/SiteNavigationElement&#039;&gt;
+	&lt;ul class=&#039;menu&#039;&gt;
+	&lt;li expr:class=&#039;data:blog.url==data:blog.homepageUrl ? &quot;active&quot; : &quot;&quot;&#039; itemprop=&#039;name&#039;&gt;&lt;a expr:href=&#039;data:blog.homepageUrl&#039; itemprop=&#039;url&#039; title=&#039;Home&#039;&gt;Home&lt;/a&gt;&lt;/li&gt;
+	&lt;li itemprop=&#039;name&#039;&gt;&lt;a href=&#039;#&#039; itemprop=&#039;url&#039; title=&#039;Tutorial&#039;&gt;Tutorial&lt;/a&gt;
+		&lt;ul class=&#039;submenu&#039;&gt;
+		&lt;li class=&#039;&#039; itemprop=&#039;name&#039;&gt;&lt;a href=&#039;#&#039; itemprop=&#039;url&#039; title=&#039;Tutorial 1&#039;>Tutorial 1&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#039;&#039; itemprop=&#039;name&#039;&gt;&lt;a href=&#039;#&#039; itemprop=&#039;url&#039; title=&#039;Tutorial 2&#039;>Tutorial 2&lt;/a&gt;&lt;/li&gt;
+		&lt;li class=&#039;&#039; itemprop=&#039;name&#039;&gt;&lt;a href=&#039;#&#039; itemprop=&#039;url&#039; title=&#039;Tutorial 3&#039;>Tutorial 3&lt;/a&gt;&lt;/li&gt;
+		&lt;/ul>
+	&lt;/li&gt;
+	&lt;li itemprop=&#039;name&#039;&gt;&lt;a href=&#039;#&#039; itemprop=&#039;url&#039; title=&#039;Contact&#039;&gt;Contact&lt;/a&gt;&lt;/li&gt;
+	&lt;li itemprop=&#039;name&#039;&gt;&lt;a href=&#039;#&#039; itemprop=&#039;url&#039; title=&#039;Sitemap&#039;&gt;Sitemap&lt;/a&gt;&lt;/li&gt;
+	&lt;li itemprop=&#039;name&#039;&gt;&lt;a href=&#039;#&#039; itemprop=&#039;url&#039; title=&#039;Pasang Iklan&#039;&gt;Iklan&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/nav&gt;
+					</pre>
+			</section>
+				<section id="widgets">
+					<div class="page-header">
+						<h1>Widgets</h1>
+					</div>
+					<h3>Tags</h3>
+					<p>First Go to <strong>Dashboard</strong> &gt; <span class="label-layout">Layout</span> &gt; then add New Gadget &gt; Labels &gt; select Cloud Option, and you can select custom labels you want to show as Tags.</p>
+					<h3>Popular Posts</h3>
+					<strong>Recommend options :</strong><br/>
+					<p>First Go to <strong>Dashboard</strong> &gt; <span class="label-layout">Layout</span> &gt; then add New Gadget &gt; Popular Posts &gt; select Thumbnails and Number of Posts</p>
+				</section>				
+				<section id="customizations">
+					<div class="page-header">
+						<h1 id="advanced">Customizations</h1>
+					</div>
+					<h3>Every Make New Post</h3>
+					<ol>
+						<li>Delete this code, every make new post:
+							<pre class="prettyprint">
+&lt;div dir=&quot;ltr&quot; style=&quot;text-align: left;&quot; trbidi=&quot;on&quot;&gt;
+							</pre>
+						</li>
+						<li>embed &lt;noscript&gt; &lt;/noscript&gt; this code, every first image post or page example:
+							<pre class="prettyprint">
+&lt;noscript&gt;&lt;img height=&#039;282&#039; src=&#039;https://1.bp.blogspot.com/-mo2fFID_mYk/WaSg5Aq0DeI/AAAAAAAACxw/mTJ6XNdoAzgPTAFzF-WMzMgcJ-EC5TYZwCEwYBhgL/s640/AMP_WordPress_AMP_Project1.jpg&#039; width=&#039;640&#039;/&gt;&lt;/noscript&gt;
+							</pre>
+						</li>
+						<li>embed &lt;amp-img&gt; &lt;/amp-img&gt; this code, when insert image post or page example:
+							<pre class="prettyprint">
+&lt;amp-img height=&#039;282&#039; layout=&#039;responsive&#039; src=&#039;https://1.bp.blogspot.com/-mo2fFID_mYk/WaSg5Aq0DeI/AAAAAAAACxw/mTJ6XNdoAzgPTAFzF-WMzMgcJ-EC5TYZwCEwYBhgL/s640/AMP_WordPress_AMP_Project1.jpg&#039; width=&#039;640&#039;&gt;&lt;/amp-img&gt;
+							</pre>
+						</li>
+						<li>embed &lt;amp-youtube&gt; &lt;/amp-youtube&gt; this code, when embed video from youtube at post or page example:
+							<pre class="prettyprint">
+&lt;amp-youtube data-videoid=&#039;5Yjoe54vzwE&#039; height=&#039;270&#039; layout=&#039;responsive&#039; width=&#039;480&#039;&gt;&lt;/amp-youtube&gt;
+							</pre>
+							<p>note : other component can see at <a href="https://ampbyexample.com/#components">AMP Comonents</a></p>
+						</li>
+					</ol>
+					<h3>Remove Quickedit</h3>
+					<p>Every add new gadget, dont forget to delete <strong>&lt;name quickedit/&gt;</strong> code from <strong>Edit HTML</strong>.</p>
+				</section>
+				<section id="disqus-comment">
+					<div class="page-header">
+						<h1>Disqus Comment</h1>
+					</div>
+					<p>Find code bellow, change <strong>rachmat-yanuarsyah</strong> with your ID of Disqus comment.</p>
+					<pre class="prettyprint">
+&lt;h4&gt;&lt;span class=&#039;show-more disqus-hide&#039;&gt;Add Comments&lt;/span&gt;&lt;/h4&gt;
+&lt;span class=&#039;disqus-box&#039;&gt;
+&lt;amp-iframe expr:src=&#039;https://rawgit.com/rachmatyanuarsyah/disqus-html/master/coffee-trick.html?shortname=rachmat-yanuarsyah&amp;fontBodyColor=d2d0cb&amp;fontBodyFamily=sans-serif&amp;fontLinkColor=7a9ec7&amp;url=&quot; + data:blog.canonicalUrl&#039; frameborder=&#039;0&#039; height=&#039;300&#039; layout=&#039;responsive&#039; resizable=&#039;resizable&#039; sandbox=&#039;allow-scripts allow-same-origin allow-modals allow-popups allow-forms&#039; width=&#039;600&#039;>
+&lt;div aria-label=&#039;Disqus Comments&#039; overflow=&#039;&#039; role=&#039;button&#039; tabindex=&#039;0&#039;&gt;Disqus Comments&lt;/div&gt;
+&lt;/amp-iframe&gt;
+&lt;/span&gt;
+					</pre>
+				</section>
+				<section id="credits">
+					<div class="page-header">
+						<h1>Copyright &amp; Credits</h1>
+					</div>
+					<h3>Other Resources Used</h3>
+					<ul>			
+						<li><a href="http://fontawesome.io/">FontAwesome</a></li>
+						<li><a href="https://www.ampproject.org/learn/overview/">AMP Project</a></li>	
+						<li><a href="https://schema.org/">Schema.org</a></li>			
+						<li><a href="http://microformats.org/">Microformats</a></li>
+						<li><a href="https://disqus.com/">Disqus</a></li>
+					</ul>
+					<h3>I wanna appreciation to:</h3>
+					<p>Another blog in all arround world, thanks for the tutorials.</p>
+					<p>Special thanks to :
+						<ul>
+							<li><a href="http://blog.kangismet.net/">Kang Ismet</a></li>
+							<li><a href="http://kompiajaib.com/">Kang Adhy Suryadi</a></li>
+							<li><a href="http://www.bungfrangki.com">bung frangki</a></li>
+						</ul>
+					</p>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- Footer
+		================================================== -->
+	<footer class="footer">
+		<div class="container">
+			<p>Documentation created by <a href="http://jakartareview.info/">Rachmat Yanuarsyah</a>.</p>
+		</div>
+	</footer>
+	<!-- Le javascript
+		================================================== -->
+	<!-- Placed at the end of the document so the pages load faster -->
+
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap-transition.js"></script>
+	<script src="assets/js/bootstrap-alert.js"></script>
+	<script src="assets/js/bootstrap-modal.js"></script>
+	<script src="assets/js/bootstrap-dropdown.js"></script>
+	<script src="assets/js/bootstrap-scrollspy.js"></script>
+	<script src="assets/js/bootstrap-tab.js"></script>
+	<script src="assets/js/bootstrap-tooltip.js"></script>
+	<script src="assets/js/bootstrap-popover.js"></script>
+	<script src="assets/js/bootstrap-button.js"></script>
+	<script src="assets/js/bootstrap-collapse.js"></script>
+	<script src="assets/js/bootstrap-carousel.js"></script>
+	<script src="assets/js/bootstrap-typeahead.js"></script>
+	<script src="assets/js/bootstrap-affix.js"></script>
+	<script src="assets/js/holder/holder.js"></script>
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+	<script src="assets/js/application.js"></script>
+</body>
+</html>
