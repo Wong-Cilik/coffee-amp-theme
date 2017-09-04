@@ -178,3 +178,35 @@ Subscribe Blog
 			</ol>
 			</div>
 </section>
+<section id="credits">
+					<div class="page-header">
+						<h1>Copyright &amp; Credits</h1>
+					</div>
+					<h3>Other Resources Used</h3>
+					<ul>			
+						<li><a href="http://fontawesome.io/">FontAwesome</a></li>
+						<li><a href="https://www.ampproject.org/learn/overview/">AMP Project</a></li>	
+						<li><a href="https://schema.org/">Schema.org</a></li>			
+						<li><a href="http://microformats.org/">Microformats</a></li>
+						<li><a href="https://disqus.com/">Disqus</a></li>
+					</ul>
+					<h3>I wanna appreciation to:</h3>
+					<p>Another blog in all arround world, thanks for the tutorials.</p>
+					<p>Special thanks to :
+						<ul>
+							<li><a href="http://blog.kangismet.net/">Kang Ismet</a></li>
+							<li><a href="http://kompiajaib.com/">Kang Adhy Suryadi</a></li>
+							<li><a href="http://www.bungfrangki.com">bung frangki</a></li>
+						</ul>
+					</p>
+				</section>
+			</div>
+		</div>
+	</div>
+	<!-- Footer
+		================================================== -->
+	<footer class="footer">
+		<div class="container">
+			<p>Documentation created by <a href="http://jakartareview.info/">Rachmat Yanuarsyah</a>.</p>
+		</div>
+	</footer>
