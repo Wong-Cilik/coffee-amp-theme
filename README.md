@@ -148,9 +148,9 @@ Subscribe Blog
 				<li>Now you can see Custom Meta tags Area on Post Editor sidebar</li>
 				<li>Every make new post, Fill yours Post Descriptions there<br/>
 				<p>Follow the instructions below:</p>
-					![alt text](https://github.com/rachmatyanuarsyah/coffee-amp-theme/master/Documentation/assets/img/setting-seo.png)<br/>
+					![alt text](https://raw.githubusercontent.com/rachmatyanuarsyah/coffee-amp-theme/master/Documentation/assets/img/setting-seo.png)<br/>
 				<p>And this:</p>
-				![alt text](https://github.com/rachmatyanuarsyah/coffee-amp-theme/master/Documentation/assets/img/description-seo.png)
+				![alt text](https://raw.githubusercontent.com/rachmatyanuarsyah/coffee-amp-theme/master/Documentation/assets/img/description-seo.png)
 				</li>
 			</ol>
 			<h3>g. Installation Google Analytics</h3>
