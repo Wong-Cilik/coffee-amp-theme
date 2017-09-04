@@ -772,7 +772,7 @@ h1.single-post, h1.single-post a{font-size: 120%; padding:0}
 							</b:includable>
 							<b:includable id='author-post' var='post'>
 								<b:if cond='data:post.authorProfileUrl'>
-									<b:if cond='data:view.isHomepage'>
+									<b:if cond='data:view.isHomepage or data:blog.pageType == &quot;index&quot;'>
 										<b:if cond='data:post.isFirstPost == &quot;true&quot;'>
 											<div class='author-img'>
 												<b:if cond='data:post.authorPhoto.url'>
@@ -807,7 +807,7 @@ h1.single-post, h1.single-post a{font-size: 120%; padding:0}
 										</div>
 									</b:if>
 								<b:else/>
-									<b:if cond='data:view.isHomepage'>
+									<b:if cond='data:view.isHomepage or data:blog.pageType == &quot;index&quot;'>
 										<b:if cond='data:post.isFirstPost == &quot;true&quot;'>
 											<div class='author-img'>
 												<b:if cond='data:post.authorPhoto.url'>
@@ -842,12 +842,14 @@ h1.single-post, h1.single-post a{font-size: 120%; padding:0}
 										</div>
 									</b:if>
 								</b:if>
+								<b:if cond='data:blog.pageType != &quot;static_page&quot;'>
 								<span class='clock'>
 									<a expr:href='data:post.url' expr:title='data:post.title' rel='bookmark'>
 										<time class='entry-date post-date published dt-published updated dt-updated' expr:datetime='data:post.timestampISO8601' itemprop='datePublished dateModified'><data:post.timestamp/></time>
 									</a>
 								</span>
 								<div class='clearfix'/>
+								</b:if>
 							</b:includable>
 							<b:includable id='backlinkDeleteIcon' var='backlink'/>
 							<b:includable id='backlinks' var='post'/>
@@ -1156,6 +1158,7 @@ h1.single-post, h1.single-post a{font-size: 120%; padding:0}
 								</b:if>
 							</b:includable>
 							<b:includable id='shareButtons' var='post'>
+								<b:if cond='data:blog.pageType!=&quot;static_page&quot;'>
 								<div class='post-social'>
 									<b:if cond='data:top.showTwitterButton'>
 										<amp-social-share height='35' type='twitter' width='35' data-param-text='Check out this Blog : TITLE at '/>
@@ -1175,6 +1178,7 @@ h1.single-post, h1.single-post a{font-size: 120%; padding:0}
 									</b:if>				
 								</div>
 								<div class='clearfix'/>
+								</b:if>
 							</b:includable>
 							<b:includable id='status-message'>
 								<b:if cond='data:navMessage'>
