@@ -1111,7 +1111,9 @@ h1.single-post, h1.single-post a{font-size: 120%; padding:0}
 													<data:post.body/>
 												</b:if>
 											</div>
-											<b:include data='post' name='shareButtons'/>
+											<b:if cond='data:blog.pageType!=&quot;static_page&quot;'>
+												<b:include data='post' name='shareButtons'/>
+											</b:if>
 											<b:if cond='data:post.hasJumpLink'>
 												<div class='jump-link'>
 													<a expr:href='data:post.url + &quot;#more&quot;' expr:title='data:post.title'><data:post.jumpText/></a>
@@ -1158,7 +1160,6 @@ h1.single-post, h1.single-post a{font-size: 120%; padding:0}
 								</b:if>
 							</b:includable>
 							<b:includable id='shareButtons' var='post'>
-								<b:if cond='data:blog.pageType!=&quot;static_page&quot;'>
 								<div class='post-social'>
 									<b:if cond='data:top.showTwitterButton'>
 										<amp-social-share height='35' type='twitter' width='35' data-param-text='Check out this Blog : TITLE at '/>
@@ -1178,7 +1179,6 @@ h1.single-post, h1.single-post a{font-size: 120%; padding:0}
 									</b:if>				
 								</div>
 								<div class='clearfix'/>
-								</b:if>
 							</b:includable>
 							<b:includable id='status-message'>
 								<b:if cond='data:navMessage'>
